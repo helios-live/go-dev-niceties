@@ -2,11 +2,12 @@ package dev
 
 import (
 	"fmt"
-	"log"
+	stdlog "log"
 	"os"
 	"time"
 
 	"github.com/fatih/color"
+	"github.com/ideatocode/go-log"
 	er "github.com/rotisserie/eris"
 	"github.com/rs/zerolog"
 	zl "github.com/rs/zerolog/log"
@@ -22,10 +23,10 @@ const timeFormat = "2006-01-02 15:04:05"
 // Setup sets the logging end error defaults
 func Setup() {
 	zerolog.SetGlobalLevel(zerolog.InfoLevel)
-	zl.Logger = zl.Output(zerolog.ConsoleWriter{Out: os.Stderr, TimeFormat: timeFormat})
+	zl.Logger = zl.Output(log.NewZero(os.Stdout).Pretty())
 
-	log.SetFlags(0)
-	log.SetOutput(zl.Logger)
+	stdlog.SetFlags(0)
+	stdlog.SetOutput(zl.Logger)
 }
 
 // Trace prints a pretty trace of the error

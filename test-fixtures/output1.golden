@@ -1,16 +1,16 @@
-2022-03-06 02:42:57 Error: this is a top level error 'hopa'
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:23
+2022-03-30 20:04:47 [91mError: [0m[33mthis is a top level error 'hopa'[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m23[0m
 
-   this is a level 3 error 'hopa'
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:22
+   [90mthis is a level 3 error 'hopa'[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m22[0m
 
-   this is a level 2 error 'oupss'
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:21
+   [90mthis is a level 2 error 'oupss'[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m21[0m
 
-   error bad request
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:20
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:21
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:22
-   command-line-arguments.TestTrace: /Users/alex/golang/src/github.com/alex-eftimie/error/main_test.go:23
+   [31merror bad request[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m20[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m21[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m22[0m
+   [36mgo-dev-niceties.TestTrace[0m: /Users/alex/golang/src/github.com/ideatocode/go-dev-niceties/dev_test.go:[94m23[0m
 
 

@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/ideatocode/go-log"
 	er "github.com/rotisserie/eris"
 	"github.com/rs/zerolog"
 	zl "github.com/rs/zerolog/log"
+	"go.ideatocode.tech/log"
 )
 
 var (

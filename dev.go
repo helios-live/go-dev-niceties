@@ -10,7 +10,7 @@ import (
 	er "github.com/rotisserie/eris"
 	"github.com/rs/zerolog"
 	zl "github.com/rs/zerolog/log"
-	"go.ideatocode.tech/log"
+	"github.com/helios-live/go-log/v2"
 )
 
 var (
